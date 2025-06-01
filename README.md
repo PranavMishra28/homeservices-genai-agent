@@ -1,8 +1,8 @@
 # Home Services Website
 
-A modern, responsive landing page for a home services business offering repair and maintenance services. The website features a clean, professional design built using HTML, CSS, and minimal JavaScript.
+A modern, responsive landing page for a home services business offering repair and maintenance services. The website features a clean, professional design built using HTML, CSS, and minimal JavaScript with agentic AI integration.
 
-![Website Preview](images/schema.png)
+![Website Preview](images/website.png)
 
 ## Table of Contents
 
@@ -91,6 +91,18 @@ The Instant Quote Calculator uses Relevance AI to provide accurate service estim
 - API integration with Relevance AI's prediction engine
 - Real-time cost estimation based on service type, property size, and other factors
 - Machine learning model continuously improves quote accuracy
+
+### Website & AI Chatbot Interface
+
+The screenshot below shows the live website with the integrated agentic AI chatbot interface that leverages natural language processing for seamless human-computer interaction.
+
+![Website and Chatbot Interface](images/website.png)
+
+**Technical Implementation:**
+- Contextual understanding through advanced NLP models
+- Multi-modal input processing (text and voice)
+- Persistent conversation state management
+- Adaptive response generation based on user intent
 
 ## Setup Instructions
 
