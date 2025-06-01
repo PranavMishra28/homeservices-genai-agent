@@ -4,8 +4,15 @@ A modern, responsive landing page for a home services business offering repair a
 
 ![Website Preview](images/website.png)
 
+## Project Workflow
+
+The following diagram explains the overall architecture and workflow of the project:
+
+![Project Architecture and Workflow](images/schema.png)
+
 ## Table of Contents
 
+- [Project Workflow](#project-workflow)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Project Structure](#project-structure)
@@ -13,6 +20,7 @@ A modern, responsive landing page for a home services business offering repair a
   - [Voiceflow Chatbot](#voiceflow-chatbot)
   - [Make.com Automation](#makecom-automation)
   - [Relevance AI Integration](#relevance-ai-integration)
+  - [Website & AI Chatbot Interface](#website--ai-chatbot-interface)
 - [Setup Instructions](#setup-instructions)
 - [Customization](#customization)
 - [Performance Optimizations](#performance-optimizations)
@@ -53,8 +61,9 @@ A modern, responsive landing page for a home services business offering repair a
 ├── script.js               # JavaScript functionality
 └── images/                 # Image assets
     ├── make.png            # Make.com workflow diagram
-    ├── schema.png          # Basic site architecture
-    └── voiceflow.png       # Voiceflow chatbot workflow
+    ├── schema.png          # Basic site architecture/workflow diagram
+    ├── voiceflow.png       # Voiceflow chatbot workflow
+    └── website.png         # Screenshot of live website with chatbot
 ```
 
 ## Integration Details
