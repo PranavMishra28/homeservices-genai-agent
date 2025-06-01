@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Services - Repair and Maintenance</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Top Header -->
+    <div class="top-header">
+        <div class="container">            <div class="contact-info">
+                <span><i class="fas fa-phone"></i> +15753439793</span>
+                <span><i class="fas fa-envelope"></i> demo@gmail.com</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>HomeServices</h1>
+            </div>            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+                <div class="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h2>Repair and Maintenance Services</h2>                <p>Your trusted partner for all home repair and maintenance needs. We provide professional, timely, and affordable services to keep your home in perfect condition.</p>
+                <a href="contact.html" class="btn btn-primary">Contact Us</a>
+            </div>            <div class="hero-image">
+                <img src="https://img.freepik.com/free-vector/hand-drawn-handyman-cartoon-illustration_23-2150765969.jpg?semt=ais_hybrid&w=740" alt="Professional Technician">
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">Our Smart Features</h2>
+            <div class="feature-wrapper">
+                <div class="feature-box">
+                    <div class="feature-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>24/7 Chatbot Support</h3>
+                    <p>Powered by Voiceflow and trained on our comprehensive Knowledge Base, get answers anytime, day or night.</p>
+                </div>
+                <div class="feature-box">
+                    <div class="feature-icon">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <h3>Instant Quote Calculator</h3>
+                    <p>Get real-time service price estimates with our Relevance AI powered quote calculator.</p>
+                </div>
+                <div class="feature-box">
+                    <div class="feature-icon">
+                        <i class="fas fa-user-check"></i>
+                    </div>
+                    <h3>Automated Lead Capture</h3>
+                    <p>Our Make.com integration ensures your requests are processed instantly and efficiently.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chatbot Section -->
+    <section class="chatbot-section">
+        <div class="container">
+            <h2 class="section-title">Start Chatting Now</h2>            <p>Have questions? Our AI assistant is ready to help you 24/7. Click on the chat icon in the corner to start a conversation!</p>
+            <div class="chatbot-info">
+                <div class="chatbot-features">
+                    <div class="chatbot-feature">
+                        <i class="fas fa-comments"></i>
+                        <h4>Instant Assistance</h4>
+                        <p>Get answers to your questions right away, no waiting required</p>
+                    </div>
+                    <div class="chatbot-feature">
+                        <i class="fas fa-calculator"></i>
+                        <h4>Service Estimates</h4>
+                        <p>Ask our chatbot for pricing on any of our services</p>
+                    </div>
+                    <div class="chatbot-feature">
+                        <i class="fas fa-calendar-check"></i>
+                        <h4>Schedule Services</h4>
+                        <p>Book appointments directly through our AI assistant</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="copyright">
+                    <p>&copy; 2025 HomeServices. All Rights Reserved.</p>
+                </div>
+                <div class="footer-socials">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>    <script src="script.js"></script>
+    
+    <script type="text/javascript">
+      (function(d, t) {
+          var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+          v.onload = function() {
+            window.voiceflow.chat.load({
+              verify: { projectID: '683b7cab4b53bb59dce68e4a' },
+              url: 'https://general-runtime.voiceflow.com',
+              versionID: 'production',
+              voice: {
+                url: "https://runtime-api.voiceflow.com"
+              }
+            });
+          }
+          v.src = "https://cdn.voiceflow.com/widget-next/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+      })(document, 'script');
+    </script>
+</body>
+</html>
